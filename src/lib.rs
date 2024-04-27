@@ -13,8 +13,8 @@ use rejection::MsgPackRejection;
 use serde::{de::DeserializeOwned, Serialize};
 use std::ops::{Deref, DerefMut};
 
-mod error;
-mod rejection;
+pub mod error;
+pub mod rejection;
 
 /// MessagePack Extractor / Response.
 ///
